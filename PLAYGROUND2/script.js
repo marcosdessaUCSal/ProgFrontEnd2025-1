@@ -32,7 +32,7 @@ class Tela {
     }
     // BÁSICO: espessura do traço
     defEspessura(esp) {
-        ctx.lineWidth = esp;
+        this.ctx.lineWidth = esp;
     }
     // BÁSICO: limpa a tela
     cls() {
