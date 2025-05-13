@@ -75,7 +75,7 @@ function mudarParaEsq() {
 function enviar(engracado) {
     const id = engracado ? 'area-dir' : 'area-esq';
     const nome = document.getElementById(id).value.trim();
-    if (nome.length = 0) return;
+    if (nome.length == 0) return;
     const engracadoStr = engracado ? 'engraçado' : 'sem graça';
     arraySujeitos.push(new Sujeito(++idCount, nome, engracado));
 
