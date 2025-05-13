@@ -1,4 +1,3 @@
-var arrayEmails = [];   //REMOVER
 var idCount = 0;
 var arraySujeitos = [];
 
