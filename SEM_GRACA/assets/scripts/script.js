@@ -7,7 +7,7 @@ class Sujeito {
     constructor(id, nome, engracado) {
         this.id = id;
         this.nome = nome;
-        this.engracado = engracado; // booleano: 0 = sem graça, 1 = engraçado
+        this.engracado = engracado; // booleano: false = sem graça, true = engraçado
     }
 
     mensagem() {
