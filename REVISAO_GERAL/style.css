@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: steelblue;
+}
+
+.quadrado {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.quadradao {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    margin-top: 20px;
+    transition:
+        width 2s ease,
+        height 2s ease;
+}
+
+.quadradinho {
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    margin-top: 20px;
+    transition:
+        width 2s ease,
+        height 2s ease;
+}
+
+.painel {
+    margin: auto;
+    margin-top: 20px;
+    width: fit-content;
+}
+
+.bola {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 20px;
+    transition:
+        border-radius 2s ease;
+}
+
+.invisivel {
+    width: 0;
+    height: 0;
+    margin: auto;
+    opacity: 0;
+    margin-top: 20px;
+    transition:
+        opacity 5s ease,
+        width 5s ease,
+        margin-top 5s ease,
+        height 5s ease;
+}
+
+.q1 {
+    background-color: orangered;
+}
+
+.q2 {
+    background-color: gold;
+}
+
+.q3 {
+    background-color: greenyellow;
+}
